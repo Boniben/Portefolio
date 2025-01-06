@@ -1,0 +1,27 @@
+titre: "Mes compétences en cours d'acquisition"
+
+Domaine:
+  Dev:
+    - Nom: html
+      Niveau: 2
+
+    - Nom: css
+      Niveau: 2
+
+    - Nom: php
+      Niveau: 2
+
+    - Nom: Javascript
+      Niveau: 1
+
+    - Nom: Visualbasic
+      Niveau: 3
+
+  Burotique:
+    - Nom: packoffice
+      Niveau: 4
+    - Nom: Sketshup
+      Niveau: 4
+    - Nom: Prompte chat gpt
+      Niveau: 3
+      

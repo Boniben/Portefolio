@@ -1,0 +1,33 @@
+titre: "Mes formations"
+
+Diplomes:
+  - Nom: BTS SIO
+    Etablissement: Saint Ursule
+    Date de début: 2024
+    Date de fin: 2026
+    Lieu: Caen
+    Contenu: Formation permettant d'être capable de gérer, maintenir et développer des solutions informatiques adaptés aux besoins des entreprises, avec une spécialisation en réseau (SLAM)
+  
+  - Nom: Licence QSE
+    Etablissement: Proméo
+    Date de début: 2014
+    Date de fin: 2015
+    Lieu: Amiens
+    Contenu: Formation permettant d'acquérir les compétences pour coordonner et piloter les démarches de qualité, sécurité, santé et environnement au sein des entreprises, en assurant la conformité aux normes et en optimisant les pratiques durables.
+  
+  - Nom: DUT Génie Biologique
+    Etablissement: Université Jules Vernes
+    Date de début: 2011
+    Date de fin: 2013
+    Lieu: Amiens
+    Contenu: Formation apportant les compétences scientifiques et techniques nécessaires pour travailler dans les domaines de la biologie, de la biochimie et de la biotechnologie, avec des applications en recherche, analyses et contrôle qualité
+
+  - Nom: Bac scientifique
+    Etablissement: Lycée Eugène Woillet
+    Date de début: 2007
+    Date de fin: 2011
+    Lieu: Montreuil sur mer
+    Contenu: Formation générale axée sur les sciences (mathématiques, physique, chimie et biologie) visant à développer des compétences analytiques et une solide base scientifique pour poursuivre des études supérieures dans des domaines techniques ou scientifiques.
+
+
+    

@@ -1,0 +1,18 @@
+titre: Quelques projets réalisés
+
+Réalisation:
+  - Description: Projet de création de la base de donnée Entretien des locaux
+    Illustration: \portfolio\data\base_de_donne_central.png
+    Documents:  
+      - \portfolio\data\base_de_donne_acc.png
+      - \portfolio\data\base_de_donne_reu.png
+  - Description: Projet de semi-automatisation de fiche d'intervention d'entretien des locaux
+    Illustration: \portfolio\data\menu_outil_de_creation.png
+    Documents: 
+      - \portfolio\data\selection_detail_chantier.png
+      - \portfolio\data\selection_info_initial.png
+      - \portfolio\data\selection_nombre_usager.png
+      - \portfolio\data\selection_photo_client.png
+      - \portfolio\data\selection_pièce.png
+      - \portfolio\data\selection_taches.png
+      - \portfolio\data\resultat_final.png

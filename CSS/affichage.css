@@ -1,0 +1,265 @@
+
+
+body {
+
+    background-color: #f5e6da; /* Code hexadécimal pour un marron très clair */
+
+}
+
+
+                                    /*boutons et étoiles et lien */
+.etoile-pleine {
+
+    color: #FFD700; /* Jaune doré */
+    font-size: 24px; /* Taille des étoiles */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Légère ombre */
+
+}
+
+
+.etoile-vide {
+
+    color: #D3D3D3; /* Gris clair */
+    font-size: 24px; /* Même taille que les étoiles pleines */
+
+}
+
+
+
+ul {
+    list-style-position: inside; /* Place les puces à l'intérieur */
+    text-align: center; /* Centre le texte */
+
+  }
+
+li{
+    text-align: center;
+    height: 30px;
+
+
+}
+a {
+
+    color: #1f9c41;  /* Même couleur que le fond de h1 pour cohérence */
+    text-decoration: none;  /* Enlève le souligné par défaut */
+    font-weight: bold;  /* Texte en gras pour plus de visibilité */
+    font-size: 1.1em;  /* Taille légèrement plus grande */
+    padding: 5px 10px;  /* Espacement autour du texte */
+    border-radius: 5px;  /* Coins légèrement arrondis pour correspondre au h1 */
+    transition: all 0.3s ease;  /* Transition douce pour les effets */
+    text-align: center;
+
+
+}
+
+a:hover {
+
+    color: #ffffff;  /* Changement de couleur en blanc au survol */
+    background-color: #1f9c41;  /* Fond vert pour l'effet de survol */
+    text-decoration: underline;  /* Sousligne le texte au survol */
+    border: 2px solid #6e3003;  /* Bordure marron (comme le cadre de h1) */
+    transform: scale(1.5);  /* Agrandissement léger lors du survol */
+
+}
+
+button {
+
+    
+    padding: 10px 20px; /* Ajoute de l'espace autour du texte */
+    background-color: #1f9c41; /* Couleur de fond du bouton */
+    cursor: pointer; /* Change le curseur au survol */
+    color:white;
+
+}
+
+.button-container {
+
+    display: flex; /*Permet d'utiliser les fonction flexbox*/
+    justify-content: space-around; /*Permet permet de centrer mes items*/
+    margin: 10px;
+
+}
+
+.button-page-container {
+
+    display: flex; /*Permet d'utiliser les fonction flexbox*/
+    justify-content: space-evenly; /*Permet permet de centrer mes items*/
+    margin: 10px;
+    flex-direction:row-reverse; /*Permet de remettre mes boutton dans l'ordre voulu*/
+
+}
+
+button:hover {
+
+    color: #ffffff;  /* Changement de couleur en blanc au survol */
+    background-color: #1f9c41;  /* Fond vert pour l'effet de survol */
+    text-decoration: underline;  /* Sousligne le texte au survol */
+    border: 2px solid #6e3003;  /* Bordure marron (comme le cadre de h1) */
+    transform: scale(1.5);  /* Agrandissement léger lors du survol */
+
+}
+
+
+                                         /*titres */
+h1 {
+
+    color: #c6e9cd; /* Vert nature (Green Sea) */
+    background-color: #1f9c41; /* Fond léger pour contraste */
+    border: 5px solid #6e3003; /* Cadre marron (Saddle Brown) */
+    padding: 10px; /* Espace à l'intérieur du cadre */
+    border-radius: 10px; /* Coins arrondis */
+    text-align: center; /* Centre le texte */
+    font-family: 'Arial', sans-serif; /* Police de caractère */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Ombre portée */
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+
+h2 {
+    color: #239b55;                /* Vert clair pour plus de modernité */
+    text-align: center;             /* Aligner à gauche */
+    text-decoration: underline;   /* Souligne le texte */
+    font-size: 2em;               /* Augmente la taille du texte */
+    font-weight: bold;            /* Rend le texte plus gras */
+    letter-spacing: 2px;          /* Ajoute un espacement entre les lettres */
+    margin-bottom: 20px;          /* Ajoute de l'espace en dessous */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Ajoute une légère ombre */
+}
+
+h3 {
+
+    color: #3c763d; /* Vert assombri pour un effet plus doux */
+    background-color: #f5e6da; /* Fond vert très clair pour subtilité */
+    border-left: 4px solid #1f9c41; /* Bordure gauche verte plus fine pour rappeler le h1 */
+    padding: 8px 12px; /* Espacement réduit pour un style plus modeste */
+    font-size: 20px; /* Taille de texte plus petite que le h1 */
+    font-weight: normal; /* Poids de police normal pour réduire l'impact */
+    border-radius: 5px; /* Coins légèrement arrondis pour la douceur */
+    text-align: left; /* Alignement à gauche pour un style plus sobre */
+    font-family: 'Arial', sans-serif; /* Même police que le h1 pour uniformité */
+    margin-top: 20px; /* Espace au-dessus pour bien séparer des autres éléments */
+
+}
+p {
+
+    color: #333333; /* Texte gris foncé pour un bon contraste */
+    font-size: 18px; /* Taille de texte confortable pour la lecture */
+    line-height: 1.6; /* Espacement entre les lignes pour faciliter la lecture */
+    margin: 15px 0; /* Espacement au-dessus et au-dessous de chaque paragraphe */
+    padding: 15px; /* Un peu d’espace interne pour aérer le texte */
+    background-color: #f5e6da; /* Fond blanc pour bien contraster avec le texte */
+    border-left: 4px solid #1f9c41; /* Bordure gauche verte pour rappel du h1 */
+    border-right: 4px solid #1f9c41;
+    border-radius: 5px; /* Coins légèrement arrondis pour un effet doux */
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); /* Ombre légère pour un effet de profondeur */
+    font-family: 'Arial', sans-serif; /* Même police que le h1 pour l’uniformité */
+    text-align: center;
+
+}
+
+                                        /*images */
+
+#image_auto{
+
+    display: flex;
+    margin: auto;
+    height: 250px;
+    width: auto;
+
+}
+
+#caroussel{
+ 
+    display: flex;
+    height: 250px;
+    width: 200px;
+    overflow: auto;
+    margin: auto;
+
+}
+
+#caroussel img{
+
+    height: 230px;
+
+}
+
+img {
+
+    width: 200px; /* Largeur de l'image */
+    display: block;
+    margin: auto;
+    height: auto; /* Hauteur ajustée automatiquement pour conserver les proportions */
+
+}
+
+#imageIA{
+    display: flex;
+    width: 40%;
+    height: auto;
+    border: 2px solid #000;
+
+}
+
+
+#contact {
+    width: 400px; /* Largeur fixe pour le formulaire */
+    margin: 0 auto; /* Centre le formulaire */
+    font-family: Arial, sans-serif;
+}
+
+#contact h2 {
+    font-size: 1em;
+    margin: 10px 0; /* Espacement entre les champs */
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+
+#contact textarea {
+    width: 100%; /* Prend toute la largeur du formulaire */
+    padding: 10px; /* Espacement interne */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 1em; /* Taille de texte cohérente */
+    box-sizing: border-box; /* Empêche les débordements */
+}
+
+#contact textarea {
+    height: 100px; /* Hauteur fixe pour le champ de texte */
+    resize: none; /* Empêche le redimensionnement */
+}
+
+#contact input[type="submit"] {
+    background-color: #1f9c41; /* Vert */
+    color: white; /* Texte blanc */
+    border: none;
+    padding: 10px 15px; /* Espace interne du bouton */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur en main */
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #146e2d; /* Vert foncé au survol */
+}
+
+input{
+    display: inline;
+    width: 50%;
+
+}
+
+textarea{
+    width: 50%;
+
+}
+
+#contact{
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center; /* Centre le contenu verticalement */
+
+}
